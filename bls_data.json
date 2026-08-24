@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-24T17:40:20+00:00",
+  "generated_utc": "2026-08-24T18:02:21+00:00",
   "measure": "Employment (not seasonally adjusted), BLS LAUS",
   "states": [
     "TX",
@@ -44639,6 +44639,54 @@
         ],
         "total_growth": 171648.5,
         "avg_annual_growth": 0.0345
+      }
+    },
+    "Dallas-Fort Worth-Arlington, TX": {
+      "state": "TX",
+      "area_type": "metro",
+      "matched_area_text": "Dallas-Fort Worth-Arlington, TX Metropolitan Statistical Area (added directly -- missing from the mirror's area index, but this is BLS's real published series ID)",
+      "series_id": "LAUMT481910000000005",
+      "view": {
+        "annual_6yr": [
+          {
+            "year": 2020,
+            "jobs": 3653263.0,
+            "growth": null,
+            "growth_pct": null
+          },
+          {
+            "year": 2021,
+            "jobs": 3883316.0,
+            "growth": 230053.0,
+            "growth_pct": 0.063
+          },
+          {
+            "year": 2022,
+            "jobs": 4095508.0,
+            "growth": 212192.0,
+            "growth_pct": 0.0546
+          },
+          {
+            "year": 2023,
+            "jobs": 4218478.0,
+            "growth": 122970.0,
+            "growth_pct": 0.03
+          },
+          {
+            "year": 2024,
+            "jobs": 4311423.0,
+            "growth": 92945.0,
+            "growth_pct": 0.022
+          },
+          {
+            "year": 2025,
+            "jobs": 4382777.0,
+            "growth": 71354.0,
+            "growth_pct": 0.0165
+          }
+        ],
+        "total_growth": 729514.0,
+        "avg_annual_growth": 0.0399
       }
     }
   }
