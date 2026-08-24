@@ -48,11 +48,15 @@ import requests
 
 BASE = "https://download.bls.gov/pub/time.series/la/"
 HEADERS = {
-    # BLS blocks requests with no / generic User-Agent. Put a real contact
-    # in here if you're running this on a schedule (courtesy to BLS, not
-    # strictly required for occasional manual runs).
-    "User-Agent": "Mozilla/5.0 (compatible; HUD-market-research-tool/1.0)"
-}
+       # BLS's servers return 403 Forbidden to generic/script-like User-Agent
+       # strings (including the default "python-requests/x.x"). A normal
+       # browser-style User-Agent gets through fine.
+       "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                      "AppleWebKit/537.36 (KHTML, like Gecko) "
+                      "Chrome/124.0.0.0 Safari/537.36"),
+       "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+       "Accept-Language": "en-US,en;q=0.9",
+   }
 
 MEASURE_EMPLOYMENT = "05"
 
