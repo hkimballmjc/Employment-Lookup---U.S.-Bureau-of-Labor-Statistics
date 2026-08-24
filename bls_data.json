@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-24T18:52:25+00:00",
+  "generated_utc": "2026-08-24T19:18:21+00:00",
   "measure": "Employment (not seasonally adjusted), BLS LAUS",
   "states": [
     "TX",
@@ -36714,7 +36714,7 @@
     }
   },
   "cities": {
-    "Anna city, TX": {
+    "Anna, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Anna city, TX",
@@ -36745,7 +36745,7 @@
         "five_year_avg_annual_growth_rate": -0.0548
       }
     },
-    "Denison city, TX": {
+    "Denison, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Denison city, TX",
@@ -36776,7 +36776,7 @@
         "five_year_avg_annual_growth_rate": 0.0291
       }
     },
-    "Abilene city, TX": {
+    "Abilene, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Abilene city, TX",
@@ -36807,7 +36807,7 @@
         "five_year_avg_annual_growth_rate": 0.0241
       }
     },
-    "Allen city, TX": {
+    "Allen, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Allen city, TX",
@@ -36838,7 +36838,7 @@
         "five_year_avg_annual_growth_rate": 0.0238
       }
     },
-    "Alvin city, TX": {
+    "Alvin, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Alvin city, TX",
@@ -36869,7 +36869,7 @@
         "five_year_avg_annual_growth_rate": 0.0289
       }
     },
-    "Amarillo city, TX": {
+    "Amarillo, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Amarillo city, TX",
@@ -36900,7 +36900,7 @@
         "five_year_avg_annual_growth_rate": 0.0123
       }
     },
-    "Arlington city, TX": {
+    "Arlington, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Arlington city, TX",
@@ -36931,7 +36931,7 @@
         "five_year_avg_annual_growth_rate": 0.0182
       }
     },
-    "Austin city, TX": {
+    "Austin, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Austin city, TX",
@@ -36962,7 +36962,7 @@
         "five_year_avg_annual_growth_rate": 0.0282
       }
     },
-    "Balch Springs city, TX": {
+    "Balch Springs, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Balch Springs city, TX",
@@ -36993,7 +36993,7 @@
         "five_year_avg_annual_growth_rate": 0.0116
       }
     },
-    "Baytown city, TX": {
+    "Baytown, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Baytown city, TX",
@@ -37024,7 +37024,7 @@
         "five_year_avg_annual_growth_rate": 0.0149
       }
     },
-    "Beaumont city, TX": {
+    "Beaumont, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Beaumont city, TX",
@@ -37055,7 +37055,7 @@
         "five_year_avg_annual_growth_rate": 0.0218
       }
     },
-    "Bedford city, TX": {
+    "Bedford, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Bedford city, TX",
@@ -37086,7 +37086,7 @@
         "five_year_avg_annual_growth_rate": 0.0102
       }
     },
-    "Belton city, TX": {
+    "Belton, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Belton city, TX",
@@ -37117,7 +37117,7 @@
         "five_year_avg_annual_growth_rate": 0.0211
       }
     },
-    "Big Spring city, TX": {
+    "Big Spring, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Big Spring city, TX",
@@ -37148,7 +37148,7 @@
         "five_year_avg_annual_growth_rate": -0.0233
       }
     },
-    "Brownsville city, TX": {
+    "Brownsville, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Brownsville city, TX",
@@ -37179,7 +37179,7 @@
         "five_year_avg_annual_growth_rate": 0.0121
       }
     },
-    "Bryan city, TX": {
+    "Bryan, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Bryan city, TX",
@@ -37210,7 +37210,7 @@
         "five_year_avg_annual_growth_rate": 0.036
       }
     },
-    "Burleson city, TX": {
+    "Burleson, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Burleson city, TX",
@@ -37241,7 +37241,7 @@
         "five_year_avg_annual_growth_rate": 0.0323
       }
     },
-    "Carrollton city, TX": {
+    "Carrollton, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Carrollton city, TX",
@@ -37272,7 +37272,7 @@
         "five_year_avg_annual_growth_rate": 0.0137
       }
     },
-    "Cedar Hill city, TX": {
+    "Cedar Hill, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Cedar Hill city, TX",
@@ -37303,7 +37303,7 @@
         "five_year_avg_annual_growth_rate": 0.0151
       }
     },
-    "Cedar Park city, TX": {
+    "Cedar Park, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Cedar Park city, TX",
@@ -37334,7 +37334,7 @@
         "five_year_avg_annual_growth_rate": 0.0218
       }
     },
-    "Celina city, TX": {
+    "Celina, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Celina city, TX",
@@ -37365,7 +37365,7 @@
         "five_year_avg_annual_growth_rate": 0.2558
       }
     },
-    "Cibolo city, TX": {
+    "Cibolo, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Cibolo city, TX",
@@ -37396,7 +37396,7 @@
         "five_year_avg_annual_growth_rate": 0.0361
       }
     },
-    "Cleburne city, TX": {
+    "Cleburne, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Cleburne city, TX",
@@ -37427,7 +37427,7 @@
         "five_year_avg_annual_growth_rate": 0.0521
       }
     },
-    "College Station city, TX": {
+    "College Station, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "College Station city, TX",
@@ -37458,7 +37458,7 @@
         "five_year_avg_annual_growth_rate": 0.0294
       }
     },
-    "Colleyville city, TX": {
+    "Colleyville, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Colleyville city, TX",
@@ -37489,7 +37489,7 @@
         "five_year_avg_annual_growth_rate": 0.0128
       }
     },
-    "Conroe city, TX": {
+    "Conroe, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Conroe city, TX",
@@ -37520,7 +37520,7 @@
         "five_year_avg_annual_growth_rate": 0.053
       }
     },
-    "Converse city, TX": {
+    "Converse, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Converse city, TX",
@@ -37551,7 +37551,7 @@
         "five_year_avg_annual_growth_rate": 0.0289
       }
     },
-    "Coppell city, TX": {
+    "Coppell, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Coppell city, TX",
@@ -37582,7 +37582,7 @@
         "five_year_avg_annual_growth_rate": 0.0084
       }
     },
-    "Copperas Cove city, TX": {
+    "Copperas Cove, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Copperas Cove city, TX",
@@ -37613,7 +37613,7 @@
         "five_year_avg_annual_growth_rate": 0.0155
       }
     },
-    "Corpus Christi city, TX": {
+    "Corpus Christi, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Corpus Christi city, TX",
@@ -37644,7 +37644,7 @@
         "five_year_avg_annual_growth_rate": 0.0157
       }
     },
-    "Corsicana city, TX": {
+    "Corsicana, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Corsicana city, TX",
@@ -37675,7 +37675,7 @@
         "five_year_avg_annual_growth_rate": -0.0006
       }
     },
-    "Dallas city, TX": {
+    "Dallas, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Dallas city, TX",
@@ -37706,7 +37706,7 @@
         "five_year_avg_annual_growth_rate": 0.0165
       }
     },
-    "Deer Park city, TX": {
+    "Deer Park, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Deer Park city, TX",
@@ -37737,7 +37737,7 @@
         "five_year_avg_annual_growth_rate": 0.0156
       }
     },
-    "Del Rio city, TX": {
+    "Del Rio, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Del Rio city, TX",
@@ -37768,7 +37768,7 @@
         "five_year_avg_annual_growth_rate": -0.0044
       }
     },
-    "Denton city, TX": {
+    "Denton, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Denton city, TX",
@@ -37799,7 +37799,7 @@
         "five_year_avg_annual_growth_rate": 0.0376
       }
     },
-    "DeSoto city, TX": {
+    "DeSoto, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "DeSoto city, TX",
@@ -37830,7 +37830,7 @@
         "five_year_avg_annual_growth_rate": 0.0144
       }
     },
-    "Duncanville city, TX": {
+    "Duncanville, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Duncanville city, TX",
@@ -37861,7 +37861,7 @@
         "five_year_avg_annual_growth_rate": 0.0074
       }
     },
-    "Eagle Pass city, TX": {
+    "Eagle Pass, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Eagle Pass city, TX",
@@ -37892,7 +37892,7 @@
         "five_year_avg_annual_growth_rate": 0.0275
       }
     },
-    "Edinburg city, TX": {
+    "Edinburg, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Edinburg city, TX",
@@ -37923,7 +37923,7 @@
         "five_year_avg_annual_growth_rate": 0.027
       }
     },
-    "El Paso city, TX": {
+    "El Paso, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "El Paso city, TX",
@@ -37954,7 +37954,7 @@
         "five_year_avg_annual_growth_rate": 0.0231
       }
     },
-    "Euless city, TX": {
+    "Euless, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Euless city, TX",
@@ -37985,7 +37985,7 @@
         "five_year_avg_annual_growth_rate": 0.0108
       }
     },
-    "Farmers Branch city, TX": {
+    "Farmers Branch, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Farmers Branch city, TX",
@@ -38016,7 +38016,7 @@
         "five_year_avg_annual_growth_rate": 0.0183
       }
     },
-    "Fate city, TX": {
+    "Fate, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Fate city, TX",
@@ -38047,7 +38047,7 @@
         "five_year_avg_annual_growth_rate": 0.0755
       }
     },
-    "Flower Mound town, TX": {
+    "Flower Mound, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Flower Mound town, TX",
@@ -38078,7 +38078,7 @@
         "five_year_avg_annual_growth_rate": 0.0173
       }
     },
-    "Forney city, TX": {
+    "Forney, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Forney city, TX",
@@ -38109,7 +38109,7 @@
         "five_year_avg_annual_growth_rate": 0.0972
       }
     },
-    "Fort Worth city, TX": {
+    "Fort Worth, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Fort Worth city, TX",
@@ -38140,7 +38140,7 @@
         "five_year_avg_annual_growth_rate": 0.0286
       }
     },
-    "Friendswood city, TX": {
+    "Friendswood, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Friendswood city, TX",
@@ -38171,7 +38171,7 @@
         "five_year_avg_annual_growth_rate": 0.0129
       }
     },
-    "Frisco city, TX": {
+    "Frisco, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Frisco city, TX",
@@ -38202,7 +38202,7 @@
         "five_year_avg_annual_growth_rate": 0.0348
       }
     },
-    "Fulshear city, TX": {
+    "Fulshear, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Fulshear city, TX",
@@ -38233,7 +38233,7 @@
         "five_year_avg_annual_growth_rate": 0.2617
       }
     },
-    "Galveston city, TX": {
+    "Galveston, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Galveston city, TX",
@@ -38264,7 +38264,7 @@
         "five_year_avg_annual_growth_rate": 0.0118
       }
     },
-    "Garland city, TX": {
+    "Garland, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Garland city, TX",
@@ -38295,7 +38295,7 @@
         "five_year_avg_annual_growth_rate": 0.0158
       }
     },
-    "Georgetown city, TX": {
+    "Georgetown, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Georgetown city, TX",
@@ -38326,7 +38326,7 @@
         "five_year_avg_annual_growth_rate": 0.0979
       }
     },
-    "Grand Prairie city, TX": {
+    "Grand Prairie, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Grand Prairie city, TX",
@@ -38357,7 +38357,7 @@
         "five_year_avg_annual_growth_rate": 0.0222
       }
     },
-    "Grapevine city, TX": {
+    "Grapevine, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Grapevine city, TX",
@@ -38388,7 +38388,7 @@
         "five_year_avg_annual_growth_rate": 0.0144
       }
     },
-    "Greenville city, TX": {
+    "Greenville, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Greenville city, TX",
@@ -38419,7 +38419,7 @@
         "five_year_avg_annual_growth_rate": 0.0449
       }
     },
-    "Haltom City city, TX": {
+    "Haltom City, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Haltom City city, TX",
@@ -38450,7 +38450,7 @@
         "five_year_avg_annual_growth_rate": 0.0127
       }
     },
-    "Harker Heights city, TX": {
+    "Harker Heights, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Harker Heights city, TX",
@@ -38481,7 +38481,7 @@
         "five_year_avg_annual_growth_rate": 0.0136
       }
     },
-    "Harlingen city, TX": {
+    "Harlingen, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Harlingen city, TX",
@@ -38512,7 +38512,7 @@
         "five_year_avg_annual_growth_rate": 0.0072
       }
     },
-    "Houston city, TX": {
+    "Houston, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Houston city, TX",
@@ -38543,7 +38543,7 @@
         "five_year_avg_annual_growth_rate": 0.0201
       }
     },
-    "Huntsville city, TX": {
+    "Huntsville, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Huntsville city, TX",
@@ -38574,7 +38574,7 @@
         "five_year_avg_annual_growth_rate": 0.012
       }
     },
-    "Hurst city, TX": {
+    "Hurst, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Hurst city, TX",
@@ -38605,7 +38605,7 @@
         "five_year_avg_annual_growth_rate": 0.0095
       }
     },
-    "Hutto city, TX": {
+    "Hutto, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Hutto city, TX",
@@ -38636,7 +38636,7 @@
         "five_year_avg_annual_growth_rate": 0.1081
       }
     },
-    "Irving city, TX": {
+    "Irving, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Irving city, TX",
@@ -38667,7 +38667,7 @@
         "five_year_avg_annual_growth_rate": 0.0135
       }
     },
-    "Katy city, TX": {
+    "Katy, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Katy city, TX",
@@ -38698,7 +38698,7 @@
         "five_year_avg_annual_growth_rate": 0.0465
       }
     },
-    "Keller city, TX": {
+    "Keller, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Keller city, TX",
@@ -38729,7 +38729,7 @@
         "five_year_avg_annual_growth_rate": 0.0182
       }
     },
-    "Kerrville city, TX": {
+    "Kerrville, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Kerrville city, TX",
@@ -38760,7 +38760,7 @@
         "five_year_avg_annual_growth_rate": 0.0172
       }
     },
-    "Killeen city, TX": {
+    "Killeen, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Killeen city, TX",
@@ -38791,7 +38791,7 @@
         "five_year_avg_annual_growth_rate": 0.0081
       }
     },
-    "Kingsville city, TX": {
+    "Kingsville, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Kingsville city, TX",
@@ -38822,7 +38822,7 @@
         "five_year_avg_annual_growth_rate": 0.0166
       }
     },
-    "Kyle city, TX": {
+    "Kyle, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Kyle city, TX",
@@ -38853,7 +38853,7 @@
         "five_year_avg_annual_growth_rate": 0.084
       }
     },
-    "Lake Jackson city, TX": {
+    "Lake Jackson, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Lake Jackson city, TX",
@@ -38884,7 +38884,7 @@
         "five_year_avg_annual_growth_rate": 0.0132
       }
     },
-    "Lancaster city, TX": {
+    "Lancaster, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Lancaster city, TX",
@@ -38915,7 +38915,7 @@
         "five_year_avg_annual_growth_rate": 0.0109
       }
     },
-    "La Porte city, TX": {
+    "La Porte, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "La Porte city, TX",
@@ -38946,7 +38946,7 @@
         "five_year_avg_annual_growth_rate": 0.0225
       }
     },
-    "Laredo city, TX": {
+    "Laredo, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Laredo city, TX",
@@ -38977,7 +38977,7 @@
         "five_year_avg_annual_growth_rate": 0.0234
       }
     },
-    "League City city, TX": {
+    "League City, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "League City city, TX",
@@ -39008,7 +39008,7 @@
         "five_year_avg_annual_growth_rate": 0.0163
       }
     },
-    "Leander city, TX": {
+    "Leander, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Leander city, TX",
@@ -39039,7 +39039,7 @@
         "five_year_avg_annual_growth_rate": 0.0912
       }
     },
-    "Lewisville city, TX": {
+    "Lewisville, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Lewisville city, TX",
@@ -39070,7 +39070,7 @@
         "five_year_avg_annual_growth_rate": 0.0252
       }
     },
-    "Little Elm city, TX": {
+    "Little Elm, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Little Elm city, TX",
@@ -39101,7 +39101,7 @@
         "five_year_avg_annual_growth_rate": 0.0517
       }
     },
-    "Longview city, TX": {
+    "Longview, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Longview city, TX",
@@ -39132,7 +39132,7 @@
         "five_year_avg_annual_growth_rate": 0.0104
       }
     },
-    "Lubbock city, TX": {
+    "Lubbock, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Lubbock city, TX",
@@ -39163,7 +39163,7 @@
         "five_year_avg_annual_growth_rate": 0.0199
       }
     },
-    "Lufkin city, TX": {
+    "Lufkin, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Lufkin city, TX",
@@ -39194,7 +39194,7 @@
         "five_year_avg_annual_growth_rate": -0.006
       }
     },
-    "McAllen city, TX": {
+    "McAllen, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "McAllen city, TX",
@@ -39225,7 +39225,7 @@
         "five_year_avg_annual_growth_rate": 0.0225
       }
     },
-    "McKinney city, TX": {
+    "McKinney, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "McKinney city, TX",
@@ -39256,7 +39256,7 @@
         "five_year_avg_annual_growth_rate": 0.0356
       }
     },
-    "Mansfield city, TX": {
+    "Mansfield, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Mansfield city, TX",
@@ -39287,7 +39287,7 @@
         "five_year_avg_annual_growth_rate": 0.0307
       }
     },
-    "Melissa city, TX": {
+    "Melissa, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Melissa city, TX",
@@ -39318,7 +39318,7 @@
         "five_year_avg_annual_growth_rate": 0.1255
       }
     },
-    "Mesquite city, TX": {
+    "Mesquite, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Mesquite city, TX",
@@ -39349,7 +39349,7 @@
         "five_year_avg_annual_growth_rate": 0.014
       }
     },
-    "Midland city, TX": {
+    "Midland, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Midland city, TX",
@@ -39380,7 +39380,7 @@
         "five_year_avg_annual_growth_rate": 0.0493
       }
     },
-    "Midlothian city, TX": {
+    "Midlothian, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Midlothian city, TX",
@@ -39411,7 +39411,7 @@
         "five_year_avg_annual_growth_rate": 0.0506
       }
     },
-    "Mission city, TX": {
+    "Mission, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Mission city, TX",
@@ -39442,7 +39442,7 @@
         "five_year_avg_annual_growth_rate": 0.021
       }
     },
-    "Missouri City city, TX": {
+    "Missouri City, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Missouri City city, TX",
@@ -39473,7 +39473,7 @@
         "five_year_avg_annual_growth_rate": 0.0208
       }
     },
-    "Nacogdoches city, TX": {
+    "Nacogdoches, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Nacogdoches city, TX",
@@ -39504,7 +39504,7 @@
         "five_year_avg_annual_growth_rate": -0.0083
       }
     },
-    "New Braunfels city, TX": {
+    "New Braunfels, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "New Braunfels city, TX",
@@ -39535,7 +39535,7 @@
         "five_year_avg_annual_growth_rate": 0.0457
       }
     },
-    "North Richland Hills city, TX": {
+    "North Richland Hills, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "North Richland Hills city, TX",
@@ -39566,7 +39566,7 @@
         "five_year_avg_annual_growth_rate": 0.0162
       }
     },
-    "Odessa city, TX": {
+    "Odessa, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Odessa city, TX",
@@ -39597,7 +39597,7 @@
         "five_year_avg_annual_growth_rate": 0.0396
       }
     },
-    "Paris city, TX": {
+    "Paris, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Paris city, TX",
@@ -39628,7 +39628,7 @@
         "five_year_avg_annual_growth_rate": -0.0037
       }
     },
-    "Pasadena city, TX": {
+    "Pasadena, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Pasadena city, TX",
@@ -39659,7 +39659,7 @@
         "five_year_avg_annual_growth_rate": 0.0121
       }
     },
-    "Pearland city, TX": {
+    "Pearland, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Pearland city, TX",
@@ -39690,7 +39690,7 @@
         "five_year_avg_annual_growth_rate": 0.0171
       }
     },
-    "Pflugerville city, TX": {
+    "Pflugerville, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Pflugerville city, TX",
@@ -39721,7 +39721,7 @@
         "five_year_avg_annual_growth_rate": 0.0237
       }
     },
-    "Pharr city, TX": {
+    "Pharr, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Pharr city, TX",
@@ -39752,7 +39752,7 @@
         "five_year_avg_annual_growth_rate": 0.019
       }
     },
-    "Plano city, TX": {
+    "Plano, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Plano city, TX",
@@ -39783,7 +39783,7 @@
         "five_year_avg_annual_growth_rate": 0.0139
       }
     },
-    "Port Arthur city, TX": {
+    "Port Arthur, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Port Arthur city, TX",
@@ -39814,7 +39814,7 @@
         "five_year_avg_annual_growth_rate": 0.0217
       }
     },
-    "Princeton city, TX": {
+    "Princeton, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Princeton city, TX",
@@ -39845,7 +39845,7 @@
         "five_year_avg_annual_growth_rate": 0.1874
       }
     },
-    "Prosper town, TX": {
+    "Prosper, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Prosper town, TX",
@@ -39876,7 +39876,7 @@
         "five_year_avg_annual_growth_rate": 0.0747
       }
     },
-    "Richardson city, TX": {
+    "Richardson, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Richardson city, TX",
@@ -39907,7 +39907,7 @@
         "five_year_avg_annual_growth_rate": 0.0108
       }
     },
-    "Rockwall city, TX": {
+    "Rockwall, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Rockwall city, TX",
@@ -39938,7 +39938,7 @@
         "five_year_avg_annual_growth_rate": 0.0266
       }
     },
-    "Rosenberg city, TX": {
+    "Rosenberg, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Rosenberg city, TX",
@@ -39969,7 +39969,7 @@
         "five_year_avg_annual_growth_rate": 0.027
       }
     },
-    "Round Rock city, TX": {
+    "Round Rock, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Round Rock city, TX",
@@ -40000,7 +40000,7 @@
         "five_year_avg_annual_growth_rate": 0.0433
       }
     },
-    "Rowlett city, TX": {
+    "Rowlett, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Rowlett city, TX",
@@ -40031,7 +40031,7 @@
         "five_year_avg_annual_growth_rate": 0.0251
       }
     },
-    "Royse City city, TX": {
+    "Royse City, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Royse City city, TX",
@@ -40062,7 +40062,7 @@
         "five_year_avg_annual_growth_rate": 0.146
       }
     },
-    "Sachse city, TX": {
+    "Sachse, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Sachse city, TX",
@@ -40093,7 +40093,7 @@
         "five_year_avg_annual_growth_rate": 0.0396
       }
     },
-    "Saginaw city, TX": {
+    "Saginaw, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Saginaw city, TX",
@@ -40124,7 +40124,7 @@
         "five_year_avg_annual_growth_rate": 0.0311
       }
     },
-    "San Angelo city, TX": {
+    "San Angelo, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "San Angelo city, TX",
@@ -40155,7 +40155,7 @@
         "five_year_avg_annual_growth_rate": 0.0178
       }
     },
-    "San Antonio city, TX": {
+    "San Antonio, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "San Antonio city, TX",
@@ -40186,7 +40186,7 @@
         "five_year_avg_annual_growth_rate": 0.0196
       }
     },
-    "San Benito city, TX": {
+    "San Benito, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "San Benito city, TX",
@@ -40217,7 +40217,7 @@
         "five_year_avg_annual_growth_rate": 0.0072
       }
     },
-    "San Juan city, TX": {
+    "San Juan, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "San Juan city, TX",
@@ -40248,7 +40248,7 @@
         "five_year_avg_annual_growth_rate": 0.0259
       }
     },
-    "San Marcos city, TX": {
+    "San Marcos, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "San Marcos city, TX",
@@ -40279,7 +40279,7 @@
         "five_year_avg_annual_growth_rate": 0.0386
       }
     },
-    "Schertz city, TX": {
+    "Schertz, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Schertz city, TX",
@@ -40310,7 +40310,7 @@
         "five_year_avg_annual_growth_rate": 0.0177
       }
     },
-    "Seguin city, TX": {
+    "Seguin, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Seguin city, TX",
@@ -40341,7 +40341,7 @@
         "five_year_avg_annual_growth_rate": 0.0621
       }
     },
-    "Sherman city, TX": {
+    "Sherman, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Sherman city, TX",
@@ -40372,7 +40372,7 @@
         "five_year_avg_annual_growth_rate": 0.0303
       }
     },
-    "Socorro city, TX": {
+    "Socorro, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Socorro city, TX",
@@ -40403,7 +40403,7 @@
         "five_year_avg_annual_growth_rate": 0.0373
       }
     },
-    "Southlake city, TX": {
+    "Southlake, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Southlake city, TX",
@@ -40434,7 +40434,7 @@
         "five_year_avg_annual_growth_rate": 0.0152
       }
     },
-    "Sugar Land city, TX": {
+    "Sugar Land, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Sugar Land city, TX",
@@ -40465,7 +40465,7 @@
         "five_year_avg_annual_growth_rate": 0.0113
       }
     },
-    "Temple city, TX": {
+    "Temple, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Temple city, TX",
@@ -40496,7 +40496,7 @@
         "five_year_avg_annual_growth_rate": 0.0284
       }
     },
-    "Texarkana city, TX": {
+    "Texarkana, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Texarkana city, TX",
@@ -40527,7 +40527,7 @@
         "five_year_avg_annual_growth_rate": 0.0038
       }
     },
-    "Texas City city, TX": {
+    "Texas City, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Texas City city, TX",
@@ -40558,7 +40558,7 @@
         "five_year_avg_annual_growth_rate": 0.025
       }
     },
-    "The Colony city, TX": {
+    "The Colony, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "The Colony city, TX",
@@ -40589,7 +40589,7 @@
         "five_year_avg_annual_growth_rate": 0.0138
       }
     },
-    "Tyler city, TX": {
+    "Tyler, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Tyler city, TX",
@@ -40620,7 +40620,7 @@
         "five_year_avg_annual_growth_rate": 0.0223
       }
     },
-    "University Park city, TX": {
+    "University Park, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "University Park city, TX",
@@ -40651,7 +40651,7 @@
         "five_year_avg_annual_growth_rate": 0.0123
       }
     },
-    "Victoria city, TX": {
+    "Victoria, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Victoria city, TX",
@@ -40682,7 +40682,7 @@
         "five_year_avg_annual_growth_rate": 0.0073
       }
     },
-    "Waco city, TX": {
+    "Waco, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Waco city, TX",
@@ -40713,7 +40713,7 @@
         "five_year_avg_annual_growth_rate": 0.0206
       }
     },
-    "Waxahachie city, TX": {
+    "Waxahachie, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Waxahachie city, TX",
@@ -40744,7 +40744,7 @@
         "five_year_avg_annual_growth_rate": 0.0339
       }
     },
-    "Weatherford city, TX": {
+    "Weatherford, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Weatherford city, TX",
@@ -40775,7 +40775,7 @@
         "five_year_avg_annual_growth_rate": 0.0464
       }
     },
-    "Weslaco city, TX": {
+    "Weslaco, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Weslaco city, TX",
@@ -40806,7 +40806,7 @@
         "five_year_avg_annual_growth_rate": 0.0299
       }
     },
-    "Wichita Falls city, TX": {
+    "Wichita Falls, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Wichita Falls city, TX",
@@ -40837,7 +40837,7 @@
         "five_year_avg_annual_growth_rate": 0.0002
       }
     },
-    "Wylie city, TX": {
+    "Wylie, TX": {
       "state": "TX",
       "area_type": "city",
       "matched_area_text": "Wylie city, TX",
@@ -40868,7 +40868,7 @@
         "five_year_avg_annual_growth_rate": 0.0229
       }
     },
-    "Cabot city, AR": {
+    "Cabot, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Cabot city, AR",
@@ -40899,7 +40899,7 @@
         "five_year_avg_annual_growth_rate": 0.0045
       }
     },
-    "Bella Vista city, AR": {
+    "Bella Vista, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Bella Vista city, AR",
@@ -40930,7 +40930,7 @@
         "five_year_avg_annual_growth_rate": 0.0421
       }
     },
-    "Benton city, AR": {
+    "Benton, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Benton city, AR",
@@ -40961,7 +40961,7 @@
         "five_year_avg_annual_growth_rate": 0.0351
       }
     },
-    "Bentonville city, AR": {
+    "Bentonville, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Bentonville city, AR",
@@ -40992,7 +40992,7 @@
         "five_year_avg_annual_growth_rate": 0.0427
       }
     },
-    "Centerton city, AR": {
+    "Centerton, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Centerton city, AR",
@@ -41023,7 +41023,7 @@
         "five_year_avg_annual_growth_rate": 0.0879
       }
     },
-    "Conway city, AR": {
+    "Conway, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Conway city, AR",
@@ -41054,7 +41054,7 @@
         "five_year_avg_annual_growth_rate": 0.036
       }
     },
-    "Fayetteville city, AR": {
+    "Fayetteville, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Fayetteville city, AR",
@@ -41085,7 +41085,7 @@
         "five_year_avg_annual_growth_rate": 0.037
       }
     },
-    "Fort Smith city, AR": {
+    "Fort Smith, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Fort Smith city, AR",
@@ -41116,7 +41116,7 @@
         "five_year_avg_annual_growth_rate": 0.0057
       }
     },
-    "Hot Springs city, AR": {
+    "Hot Springs, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Hot Springs city, AR",
@@ -41147,7 +41147,7 @@
         "five_year_avg_annual_growth_rate": 0.0109
       }
     },
-    "Jacksonville city, AR": {
+    "Jacksonville, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Jacksonville city, AR",
@@ -41178,7 +41178,7 @@
         "five_year_avg_annual_growth_rate": 0.0191
       }
     },
-    "Jonesboro city, AR": {
+    "Jonesboro, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Jonesboro city, AR",
@@ -41209,7 +41209,7 @@
         "five_year_avg_annual_growth_rate": 0.0202
       }
     },
-    "Little Rock city, AR": {
+    "Little Rock, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Little Rock city, AR",
@@ -41240,7 +41240,7 @@
         "five_year_avg_annual_growth_rate": 0.0228
       }
     },
-    "North Little Rock city, AR": {
+    "North Little Rock, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "North Little Rock city, AR",
@@ -41271,7 +41271,7 @@
         "five_year_avg_annual_growth_rate": 0.0211
       }
     },
-    "Paragould city, AR": {
+    "Paragould, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Paragould city, AR",
@@ -41302,7 +41302,7 @@
         "five_year_avg_annual_growth_rate": 0.0093
       }
     },
-    "Pine Bluff city, AR": {
+    "Pine Bluff, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Pine Bluff city, AR",
@@ -41333,7 +41333,7 @@
         "five_year_avg_annual_growth_rate": -0.0062
       }
     },
-    "Rogers city, AR": {
+    "Rogers, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Rogers city, AR",
@@ -41364,7 +41364,7 @@
         "five_year_avg_annual_growth_rate": 0.037
       }
     },
-    "Russellville city, AR": {
+    "Russellville, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Russellville city, AR",
@@ -41395,7 +41395,7 @@
         "five_year_avg_annual_growth_rate": 0.0248
       }
     },
-    "Sherwood city, AR": {
+    "Sherwood, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Sherwood city, AR",
@@ -41426,7 +41426,7 @@
         "five_year_avg_annual_growth_rate": 0.0216
       }
     },
-    "Springdale city, AR": {
+    "Springdale, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Springdale city, AR",
@@ -41457,7 +41457,7 @@
         "five_year_avg_annual_growth_rate": 0.028
       }
     },
-    "Texarkana city, AR": {
+    "Texarkana, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "Texarkana city, AR",
@@ -41488,7 +41488,7 @@
         "five_year_avg_annual_growth_rate": 0.0086
       }
     },
-    "West Memphis city, AR": {
+    "West Memphis, AR": {
       "state": "AR",
       "area_type": "city",
       "matched_area_text": "West Memphis city, AR",
@@ -41519,7 +41519,7 @@
         "five_year_avg_annual_growth_rate": 0.0053
       }
     },
-    "Ardmore city, OK": {
+    "Ardmore, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Ardmore city, OK",
@@ -41550,7 +41550,7 @@
         "five_year_avg_annual_growth_rate": 0.0041
       }
     },
-    "Bartlesville city, OK": {
+    "Bartlesville, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Bartlesville city, OK",
@@ -41581,7 +41581,7 @@
         "five_year_avg_annual_growth_rate": 0.0071
       }
     },
-    "Bixby city, OK": {
+    "Bixby, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Bixby city, OK",
@@ -41612,7 +41612,7 @@
         "five_year_avg_annual_growth_rate": 0.0277
       }
     },
-    "Broken Arrow city, OK": {
+    "Broken Arrow, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Broken Arrow city, OK",
@@ -41643,7 +41643,7 @@
         "five_year_avg_annual_growth_rate": 0.0208
       }
     },
-    "Del City city, OK": {
+    "Del City, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Del City city, OK",
@@ -41674,7 +41674,7 @@
         "five_year_avg_annual_growth_rate": 0.0089
       }
     },
-    "Edmond city, OK": {
+    "Edmond, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Edmond city, OK",
@@ -41705,7 +41705,7 @@
         "five_year_avg_annual_growth_rate": 0.0202
       }
     },
-    "Enid city, OK": {
+    "Enid, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Enid city, OK",
@@ -41736,7 +41736,7 @@
         "five_year_avg_annual_growth_rate": 0.0004
       }
     },
-    "Jenks city, OK": {
+    "Jenks, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Jenks city, OK",
@@ -41767,7 +41767,7 @@
         "five_year_avg_annual_growth_rate": 0.0192
       }
     },
-    "Lawton city, OK": {
+    "Lawton, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Lawton city, OK",
@@ -41798,7 +41798,7 @@
         "five_year_avg_annual_growth_rate": 0.0008
       }
     },
-    "Midwest City city, OK": {
+    "Midwest City, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Midwest City city, OK",
@@ -41829,7 +41829,7 @@
         "five_year_avg_annual_growth_rate": 0.0132
       }
     },
-    "Moore city, OK": {
+    "Moore, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Moore city, OK",
@@ -41860,7 +41860,7 @@
         "five_year_avg_annual_growth_rate": 0.0148
       }
     },
-    "Muskogee city, OK": {
+    "Muskogee, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Muskogee city, OK",
@@ -41891,7 +41891,7 @@
         "five_year_avg_annual_growth_rate": -0.0119
       }
     },
-    "Norman city, OK": {
+    "Norman, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Norman city, OK",
@@ -41922,7 +41922,7 @@
         "five_year_avg_annual_growth_rate": 0.0154
       }
     },
-    "Oklahoma City city, OK": {
+    "Oklahoma City, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Oklahoma City city, OK",
@@ -41953,7 +41953,7 @@
         "five_year_avg_annual_growth_rate": 0.0198
       }
     },
-    "Owasso city, OK": {
+    "Owasso, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Owasso city, OK",
@@ -41984,7 +41984,7 @@
         "five_year_avg_annual_growth_rate": 0.0317
       }
     },
-    "Ponca City city, OK": {
+    "Ponca City, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Ponca City city, OK",
@@ -42015,7 +42015,7 @@
         "five_year_avg_annual_growth_rate": 0.0032
       }
     },
-    "Shawnee city, OK": {
+    "Shawnee, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Shawnee city, OK",
@@ -42046,7 +42046,7 @@
         "five_year_avg_annual_growth_rate": 0.0124
       }
     },
-    "Stillwater city, OK": {
+    "Stillwater, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Stillwater city, OK",
@@ -42077,7 +42077,7 @@
         "five_year_avg_annual_growth_rate": 0.0232
       }
     },
-    "Tulsa city, OK": {
+    "Tulsa, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Tulsa city, OK",
@@ -42108,7 +42108,7 @@
         "five_year_avg_annual_growth_rate": 0.0106
       }
     },
-    "Yukon city, OK": {
+    "Yukon, OK": {
       "state": "OK",
       "area_type": "city",
       "matched_area_text": "Yukon city, OK",
@@ -42139,7 +42139,7 @@
         "five_year_avg_annual_growth_rate": 0.0327
       }
     },
-    "Knoxville city, TN": {
+    "Knoxville, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Knoxville city, TN",
@@ -42170,7 +42170,7 @@
         "five_year_avg_annual_growth_rate": 0.0209
       }
     },
-    "Bartlett city, TN": {
+    "Bartlett, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Bartlett city, TN",
@@ -42201,7 +42201,7 @@
         "five_year_avg_annual_growth_rate": -0.0033
       }
     },
-    "Brentwood city, TN": {
+    "Brentwood, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Brentwood city, TN",
@@ -42232,7 +42232,7 @@
         "five_year_avg_annual_growth_rate": 0.0087
       }
     },
-    "Bristol city, TN": {
+    "Bristol, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Bristol city, TN",
@@ -42263,7 +42263,7 @@
         "five_year_avg_annual_growth_rate": 0.0134
       }
     },
-    "Chattanooga city, TN": {
+    "Chattanooga, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Chattanooga city, TN",
@@ -42294,7 +42294,7 @@
         "five_year_avg_annual_growth_rate": 0.0237
       }
     },
-    "Clarksville city, TN": {
+    "Clarksville, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Clarksville city, TN",
@@ -42325,7 +42325,7 @@
         "five_year_avg_annual_growth_rate": 0.0243
       }
     },
-    "Cleveland city, TN": {
+    "Cleveland, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Cleveland city, TN",
@@ -42356,7 +42356,7 @@
         "five_year_avg_annual_growth_rate": 0.0012
       }
     },
-    "Collierville town, TN": {
+    "Collierville, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Collierville town, TN",
@@ -42387,7 +42387,7 @@
         "five_year_avg_annual_growth_rate": 0.0006
       }
     },
-    "Columbia city, TN": {
+    "Columbia, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Columbia city, TN",
@@ -42418,7 +42418,7 @@
         "five_year_avg_annual_growth_rate": 0.0364
       }
     },
-    "Cookeville city, TN": {
+    "Cookeville, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Cookeville city, TN",
@@ -42449,7 +42449,7 @@
         "five_year_avg_annual_growth_rate": 0.008
       }
     },
-    "Farragut town, TN": {
+    "Farragut, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Farragut town, TN",
@@ -42473,7 +42473,7 @@
         "three_year_avg_annual_growth_rate": 0.0052
       }
     },
-    "Franklin city, TN": {
+    "Franklin, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Franklin city, TN",
@@ -42504,7 +42504,7 @@
         "five_year_avg_annual_growth_rate": 0.0174
       }
     },
-    "Gallatin city, TN": {
+    "Gallatin, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Gallatin city, TN",
@@ -42535,7 +42535,7 @@
         "five_year_avg_annual_growth_rate": 0.0363
       }
     },
-    "Germantown city, TN": {
+    "Germantown, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Germantown city, TN",
@@ -42566,7 +42566,7 @@
         "five_year_avg_annual_growth_rate": -0.006
       }
     },
-    "Hendersonville city, TN": {
+    "Hendersonville, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Hendersonville city, TN",
@@ -42597,7 +42597,7 @@
         "five_year_avg_annual_growth_rate": 0.0154
       }
     },
-    "Jackson city, TN": {
+    "Jackson, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Jackson city, TN",
@@ -42628,7 +42628,7 @@
         "five_year_avg_annual_growth_rate": 0.0076
       }
     },
-    "Johnson City city, TN": {
+    "Johnson City, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Johnson City city, TN",
@@ -42659,7 +42659,7 @@
         "five_year_avg_annual_growth_rate": 0.0074
       }
     },
-    "Kingsport city, TN": {
+    "Kingsport, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Kingsport city, TN",
@@ -42690,7 +42690,7 @@
         "five_year_avg_annual_growth_rate": 0.0163
       }
     },
-    "La Vergne city, TN": {
+    "La Vergne, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "La Vergne city, TN",
@@ -42721,7 +42721,7 @@
         "five_year_avg_annual_growth_rate": 0.0202
       }
     },
-    "Lebanon city, TN": {
+    "Lebanon, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Lebanon city, TN",
@@ -42752,7 +42752,7 @@
         "five_year_avg_annual_growth_rate": 0.0645
       }
     },
-    "Maryville city, TN": {
+    "Maryville, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Maryville city, TN",
@@ -42783,7 +42783,7 @@
         "five_year_avg_annual_growth_rate": 0.0076
       }
     },
-    "Memphis city, TN": {
+    "Memphis, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Memphis city, TN",
@@ -42814,7 +42814,7 @@
         "five_year_avg_annual_growth_rate": -0.0058
       }
     },
-    "Morristown city, TN": {
+    "Morristown, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Morristown city, TN",
@@ -42845,7 +42845,7 @@
         "five_year_avg_annual_growth_rate": 0.0121
       }
     },
-    "Mount Juliet city, TN": {
+    "Mount Juliet, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Mount Juliet city, TN",
@@ -42876,7 +42876,7 @@
         "five_year_avg_annual_growth_rate": 0.0275
       }
     },
-    "Murfreesboro city, TN": {
+    "Murfreesboro, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Murfreesboro city, TN",
@@ -42907,7 +42907,7 @@
         "five_year_avg_annual_growth_rate": 0.0266
       }
     },
-    "Nashville-Davidson (consolidated) city, TN": {
+    "Nashville-Davidson (consolidated), TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Nashville-Davidson (consolidated) city, TN",
@@ -42938,7 +42938,7 @@
         "five_year_avg_annual_growth_rate": 0.0186
       }
     },
-    "Oak Ridge city, TN": {
+    "Oak Ridge, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Oak Ridge city, TN",
@@ -42969,7 +42969,7 @@
         "five_year_avg_annual_growth_rate": 0.0211
       }
     },
-    "Shelbyville city, TN": {
+    "Shelbyville, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Shelbyville city, TN",
@@ -42993,7 +42993,7 @@
         "three_year_avg_annual_growth_rate": 0.0004
       }
     },
-    "Smyrna town, TN": {
+    "Smyrna, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Smyrna town, TN",
@@ -43024,7 +43024,7 @@
         "five_year_avg_annual_growth_rate": 0.029
       }
     },
-    "Spring Hill city, TN": {
+    "Spring Hill, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Spring Hill city, TN",
