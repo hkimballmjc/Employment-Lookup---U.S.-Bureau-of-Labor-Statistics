@@ -405,10 +405,13 @@ def main():
             area_series_id.setdefault(area_code, series_id)
 
         kept = 0
+        nashville_debug = []
         for area_code, series_id in area_series_id.items():
             area_text = area_names.get(area_code)
             if not area_text:
                 continue
+            if abbr == "TN" and "nashville" in area_text.lower():
+                nashville_debug.append(area_text)
             category, label = classify_area(area_text)
             if not category:
                 continue  # combined areas, divisions, regions, etc. -- skip
@@ -419,6 +422,8 @@ def main():
                 "series_id": series_id,
             }
             kept += 1
+        if abbr == "TN":
+            log(f"  DIAGNOSTIC -- all Nashville-related area names found: {nashville_debug}")
         log(f"  catalog: {kept} areas identified for {abbr}")
 
     # Add any known-good metros that were missing from the (incomplete)
