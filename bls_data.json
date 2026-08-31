@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-31T17:04:51+00:00",
+  "generated_utc": "2026-08-31T17:09:50+00:00",
   "measure": "Employment (not seasonally adjusted), BLS LAUS",
   "states": [
     "TX",
@@ -42907,7 +42907,7 @@
         "five_year_avg_annual_growth_rate": 0.0266
       }
     },
-    "Nashville-Davidson (consolidated), TN": {
+    "Nashville-Davidson, TN": {
       "state": "TN",
       "area_type": "city",
       "matched_area_text": "Nashville-Davidson (consolidated) city, TN",
