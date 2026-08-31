@@ -371,8 +371,17 @@ function findBestMatch(censusName, candidateLabels) {
 // a lowercase "city"/"town" marker is always appended after the real place
 // name (e.g. "Oklahoma City city", "Austin city"). Our dataset labels have
 // already had that marker stripped (see classify_area in fetch_bls_data.py),
-// so we strip it here too or matching would silently fail.
+// so we strip it here too or matching would silently fail. Consolidated
+// city-county governments (e.g. "Nashville-Davidson metropolitan
+// government (balance)") use a different marker pattern, handled the same
+// way as the server-side classify_area function.
 function stripPlaceMarker(name) {
+  if (/\(balance\)\s*$/i.test(name)) {
+    return name
+      .replace(/\s*(metropolitan government|urban county|unified government)?\s*\(balance\)\s*$/i, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
   return name.replace(/\s+(city|town)$/i, '');
 }
 

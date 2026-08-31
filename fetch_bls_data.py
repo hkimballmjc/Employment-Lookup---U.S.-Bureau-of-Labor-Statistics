@@ -128,6 +128,15 @@ def classify_area(area_text):
     if re.search(r"\btown,\s*[A-Za-z]{2}$", area_text):
         label = re.sub(r"\s+town(?=,\s*[A-Za-z]{2}$)", "", area_text)
         return "city", label  # New England towns function like cities here
+    if re.search(r"\(balance\),\s*[A-Za-z]{2}$", area_text):
+        # Consolidated city-county governments (e.g. "Nashville-Davidson
+        # metropolitan government (balance), TN") don't follow the normal
+        # "city, ST" pattern -- functionally these ARE the city-level data
+        # for that place, just named differently by Census/BLS.
+        label = re.sub(r"\s*(metropolitan government|urban county|unified government)?"
+                        r"\s*\(balance\)", "", area_text, flags=re.IGNORECASE)
+        label = re.sub(r"\s+", " ", label).strip()
+        return "city", label
     return None, None
 
 
