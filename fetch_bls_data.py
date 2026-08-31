@@ -124,20 +124,36 @@ def classify_area(area_text):
         return "county", area_text
     if re.search(r"\bcity,\s*[A-Za-z]{2}$", area_text):
         label = re.sub(r"\s+city(?=,\s*[A-Za-z]{2}$)", "", area_text)
+        label = _strip_parenthetical_annotation(label)
         return "city", label
     if re.search(r"\btown,\s*[A-Za-z]{2}$", area_text):
         label = re.sub(r"\s+town(?=,\s*[A-Za-z]{2}$)", "", area_text)
+        label = _strip_parenthetical_annotation(label)
         return "city", label  # New England towns function like cities here
     if re.search(r"\(balance\),\s*[A-Za-z]{2}$", area_text):
-        # Consolidated city-county governments (e.g. "Nashville-Davidson
-        # metropolitan government (balance), TN") don't follow the normal
-        # "city, ST" pattern -- functionally these ARE the city-level data
-        # for that place, just named differently by Census/BLS.
+        # Fallback for consolidated city-county governments named WITHOUT a
+        # trailing "city" marker (e.g. "...metropolitan government
+        # (balance), ST") -- Nashville itself turned out to actually use
+        # "Nashville-Davidson (consolidated) city, TN", which the plain
+        # city branch above already handles, but this stays as a safety
+        # net in case another state's consolidated government is named
+        # this way instead.
         label = re.sub(r"\s*(metropolitan government|urban county|unified government)?"
                         r"\s*\(balance\)", "", area_text, flags=re.IGNORECASE)
         label = re.sub(r"\s+", " ", label).strip()
         return "city", label
     return None, None
+
+
+def _strip_parenthetical_annotation(label):
+    """Remove BLS/Census annotations like '(consolidated)' or '(balance)'
+    that sometimes appear inside an otherwise-normal city label (e.g.
+    "Nashville-Davidson (consolidated), TN" -> "Nashville-Davidson, TN").
+    Nobody searches for a city by including this kind of qualifier, and it
+    also needs to be gone for coordinate-lookup matching against Census's
+    own (unqualified) place names to work."""
+    cleaned = re.sub(r"\s*\([^)]*\)", "", label)
+    return re.sub(r"\s+", " ", cleaned).strip()
 
 
 # BLS DOES publish a combined employment series for large "split" MSAs
@@ -405,13 +421,10 @@ def main():
             area_series_id.setdefault(area_code, series_id)
 
         kept = 0
-        nashville_debug = []
         for area_code, series_id in area_series_id.items():
             area_text = area_names.get(area_code)
             if not area_text:
                 continue
-            if abbr == "TN" and "nashville" in area_text.lower():
-                nashville_debug.append(area_text)
             category, label = classify_area(area_text)
             if not category:
                 continue  # combined areas, divisions, regions, etc. -- skip
@@ -422,8 +435,6 @@ def main():
                 "series_id": series_id,
             }
             kept += 1
-        if abbr == "TN":
-            log(f"  DIAGNOSTIC -- all Nashville-related area names found: {nashville_debug}")
         log(f"  catalog: {kept} areas identified for {abbr}")
 
     # Add any known-good metros that were missing from the (incomplete)
