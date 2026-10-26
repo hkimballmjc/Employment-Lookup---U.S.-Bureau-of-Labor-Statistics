@@ -2,9 +2,13 @@ name: Refresh BLS employment data
 
 on:
   schedule:
-    # 9am UTC on the 25th of each month (BLS LAUS data is usually released
-    # around the 3rd week of the month for the prior month). Adjust anytime.
-    - cron: '0 9 25 * *'
+    # Runs every day at 21:00 UTC (5pm Eastern / 4pm Central). BLS publishes
+    # new city/county/metro numbers on irregular dates near the end of each
+    # month (e.g. Aug 2026 data on Sep 30, Sep data on Oct 28), so a single
+    # monthly run is always one release behind. Checking daily means the site
+    # picks up new data within a day of release. Days with nothing new change
+    # nothing -- fetch_bls_data.py leaves bls_data.json untouched.
+    - cron: '0 21 * * *'
   workflow_dispatch: {}   # lets you click "Run workflow" manually on GitHub
 
 permissions:
