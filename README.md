@@ -56,7 +56,7 @@ empty. With the free key: 500 requests/day, easily enough for 700+ places.
      numbers for every place in the catalog.
 - `bls_data.json` — the actual data (generated file — don't hand-edit).
 - `index.html` — the search page: three boxes (Cities, Counties, Metros).
-- `.github/workflows/refresh.yml` — has GitHub auto-run the fetch monthly.
+- `.github/workflows/refresh.yml` — has GitHub auto-run the fetch every day.
 
 ## Adding another state
 
@@ -67,7 +67,7 @@ TARGET_STATES = ["TX", "AR", "OK", "TN"]
 ```
 
 Add the 2-letter abbreviation for any other state, save, commit, and
-re-run the fetch (or wait for the monthly auto-refresh). Every city,
+re-run the fetch (or wait for the next daily auto-refresh). Every city,
 county, and metro in that state will show up automatically — no per-place
 setup needed.
 
@@ -82,7 +82,7 @@ setup needed.
    - Your tool is now live at `https://<yourusername>.github.io/<reponame>/`.
 
 3. The included GitHub Action (`.github/workflows/refresh.yml`) re-runs the
-   fetch automatically on the 25th of each month and commits the refreshed
+   fetch automatically every day (late afternoon Eastern) and commits the refreshed
    `bls_data.json` — fully automatic, doesn't depend on anyone's computer.
    You can also trigger it manually anytime from the repo's "Actions" tab.
 

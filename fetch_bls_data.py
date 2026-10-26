@@ -50,6 +50,7 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import datetime, timezone
 
 import requests
@@ -335,6 +336,44 @@ def fetch_state_employment_rows(state_file):
 
 API_URL = "https://api.bls.gov/publicAPI/v2/timeseries/data/"
 
+# HTTP statuses that mean "the server is having a moment, try again" rather
+# than "your request is wrong". BLS's API returns 503 now and then.
+RETRYABLE_STATUS = {429, 500, 502, 503, 504}
+
+# If more than this fraction of places come back with no data, something is
+# wrong on BLS's end (outage, quota hit, etc.). We stop WITHOUT writing
+# bls_data.json so the site keeps showing the last good data instead of
+# being overwritten with blanks.
+MAX_MISSING_FRACTION = 0.05
+
+
+def post_with_retry(url, payload, max_attempts=6, base_delay=5):
+    """POST with exponential backoff (5s, 10s, 20s, 40s, 80s) for temporary
+    failures: 429/5xx responses, dropped connections, and timeouts. Real
+    client errors (bad request, bad API key) are raised immediately since
+    retrying wouldn't help."""
+    delay = base_delay
+    for attempt in range(1, max_attempts + 1):
+        try:
+            r = requests.post(url, json=payload, headers=HEADERS, timeout=60)
+            if r.status_code in RETRYABLE_STATUS:
+                raise requests.exceptions.HTTPError(
+                    f"{r.status_code} transient error from {url}", response=r)
+            r.raise_for_status()
+            return r
+        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
+            err = e
+        except requests.exceptions.HTTPError as e:
+            status = e.response.status_code if e.response is not None else None
+            if status not in RETRYABLE_STATUS:
+                raise
+            err = e
+        if attempt == max_attempts:
+            raise err
+        log(f"  temporary error ({err}); retry {attempt}/{max_attempts - 1} in {delay}s...")
+        time.sleep(delay)
+        delay = min(delay * 2, 120)
+
 
 def fetch_values_via_api(series_ids, start_year, end_year, api_key=None):
     """Fetch actual current data for a list of series IDs via BLS's official
@@ -359,8 +398,7 @@ def fetch_values_via_api(series_ids, start_year, end_year, api_key=None):
         }
         if api_key:
             payload["registrationkey"] = api_key
-        r = requests.post(API_URL, json=payload, headers=HEADERS, timeout=60)
-        r.raise_for_status()
+        r = post_with_retry(API_URL, payload)
         body = r.json()
         if body.get("status") != "REQUEST_SUCCEEDED":
             log(f"  WARNING: API batch {i+1}/{len(batches)} returned "
@@ -485,6 +523,13 @@ def main():
             place["view"] = build_view(place["area_type"], data_desc)
     if missing:
         log(f"  WARNING: {missing}/{total_places} places got no data back from the API")
+    if total_places and missing / total_places > MAX_MISSING_FRACTION:
+        log(f"ERROR: {missing}/{total_places} places have no data "
+            f"(more than {MAX_MISSING_FRACTION:.0%}). Stopping WITHOUT writing "
+            f"bls_data.json so the site keeps its last good data. This usually "
+            f"means a temporary BLS outage or an API quota issue -- re-run the "
+            f"workflow in a little while.")
+        sys.exit(1)
 
     # DIAGNOSTIC -- check how many cities are missing a 5-year-back
     # comparison, to distinguish "a few small/newer cities lack that much
@@ -516,6 +561,23 @@ def main():
         "cities": categories["cities"],
         "metros": categories["metros"],
     }
+
+    # This script now runs every day (BLS publishes new city/county/metro
+    # numbers on irregular dates near the end of each month, so a once-a-
+    # month schedule is always a release behind). Most days nothing has
+    # changed, so leave the file untouched in that case -- otherwise every
+    # run would save a new copy to the repo just because the timestamp moved.
+    if os.path.exists("bls_data.json"):
+        try:
+            with open("bls_data.json", encoding="utf-8") as f:
+                previous = json.load(f)
+            def without_timestamp(d):
+                return {k: v for k, v in d.items() if k != "generated_utc"}
+            if without_timestamp(previous) == without_timestamp(output):
+                log("No new data since the last run -- leaving bls_data.json unchanged.")
+                return
+        except (OSError, json.JSONDecodeError):
+            pass  # previous file unreadable -- just write a fresh one
 
     with open("bls_data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2)
